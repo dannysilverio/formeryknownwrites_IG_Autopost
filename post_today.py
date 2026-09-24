@@ -7,10 +7,15 @@ instagram-autopost.yml GitHub Actions workflow, which supplies
 IG_USER_ID and IG_ACCESS_TOKEN as environment variables (the token comes
 from a GitHub Actions repo secret -- it is never committed to the repo).
 
-Safe to run more than once for the same slot: it checks how close "now"
-is to each slot's target time and only acts on the closest one, and it's
-fine if a run finds nothing scheduled for today (calendar ended, or this
-is a day outside the 30-day range) -- it just exits quietly.
+Double-post guard: before posting, checks posted.json (also checked into
+this repo) for a matching {date, slot} entry. If found, it skips --
+this makes it safe to manually re-run the workflow, safe against GitHub
+re-running a job, and safe against a delayed/duplicated cron firing.
+After a successful publish, it records the {date, slot, permalink} in
+posted.json. The workflow then commits that updated file back to the
+repo so the guard persists across runs (each run starts from a fresh
+checkout, so without committing the log, the guard would reset every
+time and offer no protection).
 """
 import json
 import os
@@ -25,6 +30,7 @@ GRAPH_VERSION = "v21.0"
 BASE = f"https://graph.instagram.com/{GRAPH_VERSION}"
 
 SLOT_TIMES_ET = {1: (8, 45), 2: (12, 15), 3: (18, 30)}
+POSTED_LOG = "posted.json"
 
 
 def now_et():
@@ -39,6 +45,23 @@ def closest_slot(now):
         if best_diff is None or diff < best_diff:
             best_slot, best_diff = slot, diff
     return best_slot
+
+
+def load_posted():
+    if os.path.exists(POSTED_LOG):
+        with open(POSTED_LOG) as f:
+            return json.load(f)
+    return []
+
+
+def save_posted(posted):
+    with open(POSTED_LOG, "w") as f:
+        json.dump(posted, f, indent=2)
+        f.write("\n")
+
+
+def already_posted(posted, date, slot):
+    return any(p["date"] == date and p["slot"] == slot for p in posted)
 
 
 def http_post(url, data):
@@ -64,6 +87,11 @@ def main():
     now = now_et()
     today = now.strftime("%Y-%m-%d")
     slot = closest_slot(now)
+
+    posted = load_posted()
+    if already_posted(posted, today, slot):
+        print(f"Already posted for {today} slot {slot} -- skipping (double-post guard).")
+        return
 
     entry = next((e for e in calendar if e["date"] == today and e["slot"] == slot), None)
     if entry is None:
@@ -102,7 +130,11 @@ def main():
 
     media_id = publish["id"]
     info = http_get(f"{BASE}/{media_id}", {"fields": "permalink", "access_token": access_token})
-    print(f"Posted: {info.get('permalink', media_id)}")
+    permalink = info.get("permalink", media_id)
+    print(f"Posted: {permalink}")
+
+    posted.append({"date": today, "slot": slot, "media_id": media_id, "permalink": permalink})
+    save_posted(posted)
 
 
 if __name__ == "__main__":
