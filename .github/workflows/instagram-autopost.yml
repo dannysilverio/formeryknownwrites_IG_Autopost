@@ -7,6 +7,17 @@ on:
     - cron: "30 22 * * *"   # 6:30 PM ET
   workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
 
+# Prevents two runs from overlapping (e.g. a manual click at the same
+# moment a scheduled run fires) -- the second one waits instead of
+# racing the first, so they can't both post before either has a chance
+# to record it in posted.json.
+concurrency:
+  group: instagram-autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # needed so this workflow can commit posted.json back to the repo
+
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -20,3 +31,14 @@ jobs:
           IG_USER_ID: "39806415472279044"
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python3 post_today.py
+      - name: Record post in posted.json (double-post guard)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posted.json
+          if git diff --cached --quiet; then
+            echo "No changes to posted.json"
+          else
+            git commit -m "Record post for $(TZ=America/New_York date +%Y-%m-%d)"
+            git push
+          fi
