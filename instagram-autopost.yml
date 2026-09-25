@@ -1,0 +1,49 @@
+name: Instagram Autopost
+
+on:
+  schedule:
+    # GitHub's exact-minute schedule trigger isn't reliable enough on its
+    # own for a real posting cadence -- runs can fire late or not at all.
+    # So this checks in every 15 minutes, all day, every day, and
+    # post_today.py itself decides whether any of the 3 daily slots is
+    # actually due (within a 30-minute window of its target time). Most
+    # checks are a fast no-op; this just gives each slot several chances
+    # to get caught instead of one single-shot chance.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
+
+# Prevents two runs from overlapping (e.g. a manual click at the same
+# moment a scheduled run fires) -- the second one waits instead of
+# racing the first, so they can't both post before either has a chance
+# to record it in posted.json.
+concurrency:
+  group: instagram-autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # needed so this workflow can commit posted.json back to the repo
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Post today's scheduled entry (if any)
+        env:
+          IG_USER_ID: "39806415472279044"
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 post_today.py
+      - name: Record post in posted.json (double-post guard)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posted.json
+          if git diff --cached --quiet; then
+            echo "No changes to posted.json"
+          else
+            git commit -m "Record post for $(TZ=America/New_York date +%Y-%m-%d)"
+            git push
+          fi
