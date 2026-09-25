@@ -2,9 +2,14 @@ name: Instagram Autopost
 
 on:
   schedule:
-    - cron: "45 12 * * *"   # 8:45 AM ET
-    - cron: "15 16 * * *"   # 12:15 PM ET
-    - cron: "30 22 * * *"   # 6:30 PM ET
+    # GitHub's exact-minute schedule trigger isn't reliable enough on its
+    # own for a real posting cadence -- runs can fire late or not at all.
+    # So this checks in every 15 minutes, all day, every day, and
+    # post_today.py itself decides whether any of the 3 daily slots is
+    # actually due (within a 30-minute window of its target time). Most
+    # checks are a fast no-op; this just gives each slot several chances
+    # to get caught instead of one single-shot chance.
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
 
 # Prevents two runs from overlapping (e.g. a manual click at the same
