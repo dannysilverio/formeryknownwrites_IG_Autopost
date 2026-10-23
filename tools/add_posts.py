@@ -62,6 +62,7 @@ TOPIC_TAGS = {
     "betrayal": ["#betrayalquotes", "#trustissues", "#lessonslearned", "#loyaltyquotes", "#protectyourpeace"],
     "hardship": ["#overcomingadversity", "#resilience", "#comebackstory", "#strongermindset", "#keepgoing"],
     "life": ["#lifelessons", "#lifequotes", "#perspective", "#realtalk", "#livewithintention"],
+    "life_lessons": ["#wisdomquotes", "#lessonslearned", "#dailywisdom", "#lifelessonslearned", "#growthmindset"],
     "absence": ["#missingsomeone", "#griefquotes", "#presenceovergifts", "#cherishthemnow", "#quietstrength"],
     "audacity": ["#confidencequotes", "#mindsetshift", "#dothescarything", "#selfbelief", "#growthmindset"],
     "timing": ["#divinetiming", "#patiencequotes", "#trusttheprocess", "#thingswilllineup", "#slowgrowth"],
@@ -105,6 +106,18 @@ def next_start(calendar, override):
     today = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).date()
     last = max(datetime.date.fromisoformat(e["date"]) for e in calendar) if calendar else today
     return max(last + datetime.timedelta(days=1), today + datetime.timedelta(days=1))
+
+
+def max_seq(bank_dir, calendar, texts_log):
+    """Highest p#### number ever used (files on disk, calendar URLs, logged files),
+    so a new image can never overwrite an existing one even after cleanup."""
+    names = []
+    if os.path.isdir(bank_dir):
+        names += os.listdir(bank_dir)
+    names += [e["image_url"].rsplit("/", 1)[-1] for e in calendar]
+    names += [t.get("file", "").rsplit("/", 1)[-1] for t in texts_log]
+    nums = [int(m.group(1)) for n in names for m in [re.match(r"p(\d{4})_", n)] if m]
+    return max(nums) if nums else 0
 
 
 def build_caption(post, idx):
@@ -158,7 +171,7 @@ def main():
         accepted = accepted[:keep]
 
     start = next_start(calendar, args.start_date)
-    seq =len([f for f in os.listdir(os.path.join(ROOT, "bank")) if f.endswith(".png")]) if os.path.isdir(os.path.join(ROOT, "bank")) else 0
+    seq = max_seq(os.path.join(ROOT, "bank"), calendar, texts_log)
 
     new_entries, new_texts = [], []
     for i, p in enumerate(accepted):

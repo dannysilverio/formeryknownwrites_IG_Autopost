@@ -10,8 +10,8 @@ Cost is a fraction of a cent per batch.
     python3 tools/refill.py --stub f.json  # offline test: use a saved response
 
 Topic mix per batch of 30 requested (trimmed to whole days after dedupe):
-fatherhood weighted heaviest, then betrayal, hardship, life, and one or two
-of each earlier theme.
+an even split across every theme (two each, three each for life lessons and
+outgrowing situations). Fatherhood is one theme among fourteen, not the focus.
 """
 import argparse
 import json
@@ -30,22 +30,25 @@ MODEL = os.environ.get("REFILL_MODEL", "claude-haiku-5-5")
 COUNT = 30
 
 MIX = {
-    "fatherhood": 8, "betrayal": 3, "hardship": 3, "life": 3,
-    "absence": 1, "audacity": 2, "timing": 2, "growth": 2, "redirection": 2,
-    "healing": 1, "boundaries": 1, "self_worth": 1, "purpose": 1,
+    "fatherhood": 2, "betrayal": 2, "hardship": 2, "life": 2, "life_lessons": 3,
+    "growth": 3, "absence": 2, "audacity": 2, "timing": 2, "redirection": 2,
+    "healing": 2, "boundaries": 2, "self_worth": 2, "purpose": 2,
 }
+assert sum(MIX.values()) == COUNT
 
-SYSTEM = """You write posts for the Instagram quote page formerlyknownwrites, in the voice of a father who has been through real hardship and is raising his children to be adults with values.
+SYSTEM = """You write posts for the Instagram quote page formerlyknownwrites, in the voice of a man who has been through real hardship, leans on faith and family, and is raising his children to be adults with values. Most posts are NOT about parenting. They are about life, trust, growth, and getting through things, written so anyone can see themselves in them.
 
 Voice: plain, direct, aphoristic. Short. Each post is one to three short sentences, usually with a line break between thoughts. It should read like something a person would screenshot and send to someone. Concrete over abstract. No clichés ("hustle", "grind", "good vibes only", "everything happens for a reason"), no advice-column tone, no hashtags, no emojis.
 
 Hard rules:
 - Never use em dashes or en dashes. Use commas, periods, or parentheses.
 - Universal wording only. Never point at a specific person or relationship. Every post must be about an experience in general and read as safe if screenshotted and shown to anyone.
+- Only posts with the fatherhood topic mention children, kids, or being a dad. Every other topic is written for anyone and never mentions parenting.
 - Tone for any post about parenting: warm, patient, steady, and child-centered. Never harsh, rigid, cold, or controlling. No lines about a cruel or ungentle world, and no scorekeeping about who shows up or when.
 - Parenting voice, how this father actually talks about his kids: tender and affirming, often speaking straight to the child ("you"). Love that does not have to be earned. "You are enough." Being a steady presence through life's storms rather than promising to prevent them. Faith and family as what holds him up. Encouraging kids to stay curious, kind, imaginative, and true to themselves, to follow the dreams in their own heart, to balance passion with gentleness, and to get back up when they stumble. Gratitude for what his children teach him. Humble about his own imperfection ("some days I wish for a do-over"). Never stern, never lecturing, never a list of rules. His signature craft is wordplay and triads: one image that carries three meanings ("a charger, a charge, and a charge forward"; "a handprint, a blueprint, and an imprint"; "love disguised as art, purpose disguised as paper"), plus steady metaphors like a rock, a garden, a lighthouse, a compass, roots and wings, seeds that bloom. Fatherhood as something he builds and tends, not a title he holds. Wealth measured by what fills the heart.
 - Never imply anyone else fails at what a post describes, never attribute motives to other people, and never mention schedules, days of the week, or being absent or away.
-- Betrayal posts stay general. Nothing about people close to you using or targeting you.
+- Betrayal posts stay general and are about the reader's own trust, lessons, boundaries, and healing (trust as a gift, a bridge, a risk; choosing who you give it to; staying soft anyway). Never use "they" or "them" about the person who hurt you, never describe what someone did or intended, and nothing about people close to you using or targeting you.
+- Growth and outgrowing posts are about the reader changing and moving on from a situation, season, or room, with no villain and no one left behind in blame.
 - Do not repeat or closely paraphrase any quote in the AVOID list.
 - Under 200 characters each. Use \\n inside the string for a deliberate line break.
 - Vary sentence shape. Not every post should be "X isn't Y, it's Z".
@@ -116,8 +119,9 @@ def main():
         prompt = (
             f"Write {COUNT} new posts with this topic mix:\n{mix_lines}\n\n"
             "Topic meanings: fatherhood (raising kids with values, protecting them, steadiness), "
-            "betrayal, hardship (overcoming), life (perspective), absence (missing someone, grief), "
-            "audacity (courage to start), timing (patience), growth (outgrowing, changing), "
+            "betrayal (trust, lessons, protecting your peace), hardship (overcoming), life (perspective, gratitude, what matters), "
+            "life_lessons (wisdom learned the hard way, short and practical), absence (missing someone, grief), "
+            "audacity (courage to start), timing (patience), growth (outgrowing situations, seasons, and rooms; becoming), "
             "redirection (closed doors), healing, boundaries, self_worth, purpose.\n\n"
             f"AVOID (already posted, do not repeat or paraphrase):\n{avoid}\n\n"
             "Return the JSON array now."

@@ -8,18 +8,18 @@
     "slot": 1
   },
   {
-    "text": "Hard seasons don't build character.\nThey reveal it, then give you the chance to build more.",
-    "topic": "hardship",
+    "text": "Courage doesn't wait for certainty.\nIt takes the first step and lets the path appear.",
+    "topic": "audacity",
     "style": "black",
-    "file": "bank/p0002_black_hardship.png",
+    "file": "bank/p0080_black_audacity.png",
     "date": "2026-10-24",
     "slot": 2
   },
   {
-    "text": "Betrayal rarely comes from strangers.\nIt comes from people who knew exactly where you were soft.",
+    "text": "Trust is a gift, a bridge, and a risk.\nBetrayal teaches you how to keep giving it wisely.",
     "topic": "betrayal",
     "style": "black",
-    "file": "bank/p0003_black_betrayal.png",
+    "file": "bank/p0061_black_betrayal.png",
     "date": "2026-10-24",
     "slot": 3
   },
@@ -49,10 +49,10 @@
   },
   {
     "text": "I don't measure wealth by what fills my accounts.\nI measure it by what fills my heart.",
-    "topic": "fatherhood",
+    "topic": "life",
     "style": "note",
-    "file": "bank/p0007_note_fatherhood.png",
-    "date": "2026-10-26",
+    "file": "bank/p0062_note_life.png",
+    "date": "2026-10-27",
     "slot": 1
   },
   {
@@ -76,7 +76,7 @@
     "topic": "redirection",
     "style": "note",
     "file": "bank/p0010_note_redirection.png",
-    "date": "2026-10-27",
+    "date": "2026-10-26",
     "slot": 1
   },
   {
@@ -88,10 +88,10 @@
     "slot": 2
   },
   {
-    "text": "Some people collect watches.\nMy children give me time.",
-    "topic": "fatherhood",
+    "text": "Lessons come disguised as losses, delays, and detours.\nGratitude is how you finally unwrap them.",
+    "topic": "life_lessons",
     "style": "black",
-    "file": "bank/p0012_black_fatherhood.png",
+    "file": "bank/p0063_black_life_lessons.png",
     "date": "2026-10-27",
     "slot": 3
   },
@@ -120,18 +120,18 @@
     "slot": 3
   },
   {
-    "text": "You didn't lose them.\nYou outgrew the version of you they were comfortable with.",
+    "text": "You didn't lose anything.\nYou outgrew the version of you that fit there.",
     "topic": "growth",
     "style": "note",
-    "file": "bank/p0016_note_growth.png",
+    "file": "bank/p0064_note_growth.png",
     "date": "2026-10-29",
     "slot": 1
   },
   {
-    "text": "Joy disguised as noise.\nLessons disguised as questions.\nLegacy disguised as bedtime stories.",
-    "topic": "fatherhood",
+    "text": "Heal at the speed of honesty: one breath, one prayer, one gentle day at a time.",
+    "topic": "healing",
     "style": "black",
-    "file": "bank/p0017_black_fatherhood.png",
+    "file": "bank/p0081_black_healing.png",
     "date": "2026-10-29",
     "slot": 2
   },
@@ -144,10 +144,10 @@
     "slot": 3
   },
   {
-    "text": "Most of what you're afraid of is a story you haven't tested yet.",
-    "topic": "life",
+    "text": "Your story is the one thing only you can write.\nMake it worth reading to your future self.",
+    "topic": "purpose",
     "style": "note",
-    "file": "bank/p0019_note_life.png",
+    "file": "bank/p0082_note_purpose.png",
     "date": "2026-10-30",
     "slot": 1
   },
@@ -184,10 +184,10 @@
     "slot": 2
   },
   {
-    "text": "I can't prevent the storms.\nBut I can be the rock you stand on while they pass.",
-    "topic": "fatherhood",
+    "text": "Seeds don't bloom on request.\nWater them, trust the soil, and let the season do its work.",
+    "topic": "timing",
     "style": "black",
-    "file": "bank/p0024_black_fatherhood.png",
+    "file": "bank/p0083_black_timing.png",
     "date": "2026-10-31",
     "slot": 3
   },
@@ -200,18 +200,18 @@
     "slot": 1
   },
   {
-    "text": "To be someone's rock means standing firm, staying grounded, and carrying the weight of love without complaint.",
-    "topic": "fatherhood",
+    "text": "Outgrowing a situation isn't failing it.\nIt's thanking it for the lesson and walking forward with it.",
+    "topic": "growth",
     "style": "black",
-    "file": "bank/p0026_black_fatherhood.png",
+    "file": "bank/p0065_black_growth.png",
     "date": "2026-11-01",
     "slot": 2
   },
   {
-    "text": "Betrayal hurts twice.\nOnce for what they did, and once for how long you defended them.",
-    "topic": "betrayal",
+    "text": "Your worth was never up for a vote.\nStop waiting for the results.",
+    "topic": "self_worth",
     "style": "black",
-    "file": "bank/p0027_black_betrayal.png",
+    "file": "bank/p0084_black_self_worth.png",
     "date": "2026-11-01",
     "slot": 3
   },
@@ -224,10 +224,10 @@
     "slot": 1
   },
   {
-    "text": "You are my why, my wings, and my roots.",
-    "topic": "fatherhood",
+    "text": "A closed door is just a redirect.\nTrust the compass even when you can't see the map.",
+    "topic": "redirection",
     "style": "black",
-    "file": "bank/p0029_black_fatherhood.png",
+    "file": "bank/p0085_black_redirection.png",
     "date": "2026-11-02",
     "slot": 2
   },
@@ -240,66 +240,66 @@
     "slot": 3
   },
   {
-    "text": "Some of us didn't get a head start.\nWe got a reason.",
-    "topic": "hardship",
+    "text": "No is a complete sentence, a healthy habit, and a quiet kind of love.",
+    "topic": "boundaries",
     "style": "note",
-    "file": "bank/p0031_note_hardship.png",
+    "file": "bank/p0086_note_boundaries.png",
     "date": "2026-11-03",
     "slot": 1
   },
   {
-    "text": "Moments become memories, memories become stories, and stories become legacies.\nI don't take a single one for granted.",
-    "topic": "fatherhood",
+    "text": "The storm taught me to grow deeper roots, not build higher walls.",
+    "topic": "hardship",
     "style": "black",
-    "file": "bank/p0032_black_fatherhood.png",
+    "file": "bank/p0067_black_hardship.png",
     "date": "2026-11-03",
     "slot": 2
   },
   {
-    "text": "It takes years to earn trust and a single decision to spend it.",
-    "topic": "betrayal",
-    "style": "black",
-    "file": "bank/p0033_black_betrayal.png",
-    "date": "2026-11-03",
-    "slot": 3
-  },
-  {
-    "text": "Never let the world dull your light.\nYou were enough long before it had an opinion.",
-    "topic": "fatherhood",
-    "style": "note",
-    "file": "bank/p0034_note_fatherhood.png",
-    "date": "2026-11-04",
-    "slot": 1
-  },
-  {
-    "text": "Some silences are louder than any argument you ever had.",
+    "text": "Missing someone is love with nowhere to go.\nLet it become a prayer, a memory, and a reason to hold others closer.",
     "topic": "absence",
     "style": "black",
-    "file": "bank/p0035_black_absence.png",
+    "file": "bank/p0087_black_absence.png",
+    "date": "2026-11-03",
+    "slot": 3
+  },
+  {
+    "text": "A full life isn't loud.\nIt's a quiet table, a grateful heart, and people who feel like home.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0068_note_life.png",
+    "date": "2026-11-04",
+    "slot": 1
+  },
+  {
+    "text": "Not every question needs an answer today.\nSome just need a season and a little faith.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0069_black_life_lessons.png",
     "date": "2026-11-04",
     "slot": 2
   },
   {
-    "text": "You are one decision away from a completely different year.",
-    "topic": "life",
+    "text": "What didn't work out taught you where not to plant.\nKeep the seeds. Find better soil.",
+    "topic": "redirection",
     "style": "black",
-    "file": "bank/p0036_black_life.png",
+    "file": "bank/p0088_black_redirection.png",
     "date": "2026-11-04",
     "slot": 3
   },
   {
-    "text": "The seeds we water in silence eventually bloom loud enough for the heart to hear.",
-    "topic": "fatherhood",
+    "text": "Be the lighthouse, not the lightning.\nSteady light guides more people than loud ever will.",
+    "topic": "life_lessons",
     "style": "note",
-    "file": "bank/p0037_note_fatherhood.png",
+    "file": "bank/p0070_note_life_lessons.png",
     "date": "2026-11-05",
     "slot": 1
   },
   {
-    "text": "The comeback is rarely loud.\nMostly it's quiet mornings where you decide again.",
-    "topic": "hardship",
+    "text": "What's meant for you isn't late.\nIt's growing roots.",
+    "topic": "timing",
     "style": "black",
-    "file": "bank/p0038_black_hardship.png",
+    "file": "bank/p0089_black_timing.png",
     "date": "2026-11-05",
     "slot": 2
   },
@@ -320,18 +320,18 @@
     "slot": 1
   },
   {
-    "text": "If your peace needs an explanation, they were never going to understand it.",
+    "text": "Your peace doesn't need a committee.\nIt needs a closed door and a quiet mind.",
     "topic": "boundaries",
     "style": "black",
-    "file": "bank/p0041_black_boundaries.png",
+    "file": "bank/p0071_black_boundaries.png",
     "date": "2026-11-06",
     "slot": 2
   },
   {
-    "text": "Follow the dreams tucked deep in your heart,\nnot the ones the world tells you to chase.",
-    "topic": "fatherhood",
+    "text": "Some rooms you outgrow quietly.\nNo fight, no villain. Just a bigger you and a smaller room.",
+    "topic": "growth",
     "style": "black",
-    "file": "bank/p0042_black_fatherhood.png",
+    "file": "bank/p0072_black_growth.png",
     "date": "2026-11-06",
     "slot": 3
   },
@@ -344,18 +344,18 @@
     "slot": 1
   },
   {
-    "text": "Not everyone who accepts your loyalty understands what it weighs.",
-    "topic": "betrayal",
+    "text": "Start before you're ready.\nReady is a feeling that shows up halfway through.",
+    "topic": "audacity",
     "style": "black",
-    "file": "bank/p0044_black_betrayal.png",
-    "date": "2026-11-07",
-    "slot": 2
+    "file": "bank/p0090_black_audacity.png",
+    "date": "2026-11-08",
+    "slot": 3
   },
   {
-    "text": "When you stumble, and you will,\nlet your strength to stand back up be what defines you.",
-    "topic": "fatherhood",
+    "text": "Learn the lesson.\nKeep the love.\nLeave the weight.",
+    "topic": "life_lessons",
     "style": "black",
-    "file": "bank/p0045_black_fatherhood.png",
+    "file": "bank/p0074_black_life_lessons.png",
     "date": "2026-11-07",
     "slot": 3
   },
@@ -368,10 +368,10 @@
     "slot": 1
   },
   {
-    "text": "Some days I feel like I'm doing it right.\nOther days I wish for a do-over.\nThe love never changes.",
-    "topic": "fatherhood",
+    "text": "Protect your peace the way you'd protect something you love.\nGently, firmly, and without apology.",
+    "topic": "boundaries",
     "style": "black",
-    "file": "bank/p0047_black_fatherhood.png",
+    "file": "bank/p0091_black_boundaries.png",
     "date": "2026-11-08",
     "slot": 2
   },
@@ -380,22 +380,22 @@
     "topic": "hardship",
     "style": "black",
     "file": "bank/p0048_black_hardship.png",
-    "date": "2026-11-08",
-    "slot": 3
+    "date": "2026-11-07",
+    "slot": 2
   },
   {
-    "text": "Time is going to pass either way.\nThe only choice is whether you were there for it.",
-    "topic": "life",
+    "text": "Rest is part of healing.\nSo is laughing again before you feel ready.",
+    "topic": "healing",
     "style": "note",
-    "file": "bank/p0049_note_life.png",
+    "file": "bank/p0092_note_healing.png",
     "date": "2026-11-09",
     "slot": 1
   },
   {
-    "text": "They were never confused about what they were doing.\nStop trying to understand them and start protecting yourself.",
+    "text": "You don't have to understand why it happened to decide what happens next.",
     "topic": "betrayal",
     "style": "black",
-    "file": "bank/p0050_black_betrayal.png",
+    "file": "bank/p0075_black_betrayal.png",
     "date": "2026-11-09",
     "slot": 2
   },
@@ -408,10 +408,10 @@
     "slot": 3
   },
   {
-    "text": "My faith, my family, and my children are what hold me up on the hardest days.",
-    "topic": "fatherhood",
+    "text": "Be gentle with who you are today.\nYou're still becoming, and that's allowed.",
+    "topic": "self_worth",
     "style": "note",
-    "file": "bank/p0052_note_fatherhood.png",
+    "file": "bank/p0093_note_self_worth.png",
     "date": "2026-11-10",
     "slot": 1
   },
@@ -424,34 +424,34 @@
     "slot": 2
   },
   {
-    "text": "Your passion is a gift.\nI hope you learn to balance it with gentleness and use it to make the world better.",
-    "topic": "fatherhood",
+    "text": "Cherish them while they're here.\nPresence is the one gift that never goes out of season.",
+    "topic": "absence",
     "style": "black",
-    "file": "bank/p0054_black_fatherhood.png",
+    "file": "bank/p0094_black_absence.png",
     "date": "2026-11-10",
     "slot": 3
   },
   {
-    "text": "Struggle taught me what comfort never could: how much I can carry, and who I refuse to be again.",
-    "topic": "hardship",
+    "text": "Purpose shows up as a calling, a craft, and a reason to keep showing up.",
+    "topic": "purpose",
     "style": "note",
-    "file": "bank/p0055_note_hardship.png",
+    "file": "bank/p0095_note_purpose.png",
     "date": "2026-11-11",
     "slot": 1
   },
   {
-    "text": "Some people only love you while you're useful.\nLet the betrayal teach you to value the ones who stay when you're not.",
-    "topic": "betrayal",
+    "text": "Some seasons end without a goodbye.\nGrace is saying thank you anyway.",
+    "topic": "absence",
     "style": "black",
-    "file": "bank/p0056_black_betrayal.png",
+    "file": "bank/p0096_black_absence.png",
     "date": "2026-11-11",
     "slot": 2
   },
   {
-    "text": "I hope you stay curious, I hope you stay kind, and I hope you never lose that spark.",
-    "topic": "fatherhood",
+    "text": "Growth is a compass, not a competition.\nPoint yourself toward who you're becoming.",
+    "topic": "growth",
     "style": "black",
-    "file": "bank/p0057_black_fatherhood.png",
+    "file": "bank/p0078_black_growth.png",
     "date": "2026-11-11",
     "slot": 3
   },
@@ -464,10 +464,10 @@
     "slot": 1
   },
   {
-    "text": "I'll never be able to save my children from every hurt.\nI can be a steady place for them to land.",
-    "topic": "fatherhood",
+    "text": "What you water grows.\nWater gratitude, patience, and faith, and watch the garden answer.",
+    "topic": "life_lessons",
     "style": "black",
-    "file": "bank/p0059_black_fatherhood.png",
+    "file": "bank/p0079_black_life_lessons.png",
     "date": "2026-11-12",
     "slot": 2
   },
@@ -680,6 +680,216 @@
   {
     "text": "Being a dad is the greatest joy of my life.\nI'm proud of you every single day.",
     "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Betrayal rarely comes from strangers.\nIt comes from people who knew exactly where you were soft.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Some people collect watches.\nMy children give me time.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "You didn't lose them.\nYou outgrew the version of you they were comfortable with.",
+    "topic": "growth",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "To be someone's rock means standing firm, staying grounded, and carrying the weight of love without complaint.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Betrayal hurts twice.\nOnce for what they did, and once for how long you defended them.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Moments become memories, memories become stories, and stories become legacies.\nI don't take a single one for granted.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Never let the world dull your light.\nYou were enough long before it had an opinion.",
+    "topic": "fatherhood",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "Some silences are louder than any argument you ever had.",
+    "topic": "absence",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "The seeds we water in silence eventually bloom loud enough for the heart to hear.",
+    "topic": "fatherhood",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "If your peace needs an explanation, they were never going to understand it.",
+    "topic": "boundaries",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Follow the dreams tucked deep in your heart,\nnot the ones the world tells you to chase.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Not everyone who accepts your loyalty understands what it weighs.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "When you stumble, and you will,\nlet your strength to stand back up be what defines you.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "They were never confused about what they were doing.\nStop trying to understand them and start protecting yourself.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Your passion is a gift.\nI hope you learn to balance it with gentleness and use it to make the world better.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Some people only love you while you're useful.\nLet the betrayal teach you to value the ones who stay when you're not.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "I hope you stay curious, I hope you stay kind, and I hope you never lose that spark.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "I'll never be able to save my children from every hurt.\nI can be a steady place for them to land.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Hard seasons don't build character.\nThey reveal it, then give you the chance to build more.",
+    "topic": "hardship",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Joy disguised as noise.\nLessons disguised as questions.\nLegacy disguised as bedtime stories.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Most of what you're afraid of is a story you haven't tested yet.",
+    "topic": "life",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "I can't prevent the storms.\nBut I can be the rock you stand on while they pass.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Betrayal teaches three things: who to trust, how much to give, and how to stay soft anyway.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "You are my why, my wings, and my roots.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Some of us didn't get a head start.\nWe got a reason.",
+    "topic": "hardship",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "It takes years to earn trust and a single decision to spend it.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "You are one decision away from a completely different year.",
+    "topic": "life",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "The comeback is rarely loud.\nMostly it's quiet mornings where you decide again.",
+    "topic": "hardship",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Loyalty is heavy.\nCarry it for those who would carry it back.",
+    "topic": "betrayal",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Some days I feel like I'm doing it right.\nOther days I wish for a do-over.\nThe love never changes.",
+    "topic": "fatherhood",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Time is going to pass either way.\nThe only choice is whether you were there for it.",
+    "topic": "life",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "My faith, my family, and my children are what hold me up on the hardest days.",
+    "topic": "fatherhood",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "You've survived every hard day so far.\nThat's a track record worth trusting.",
+    "topic": "hardship",
+    "style": "black",
+    "retired": true
+  },
+  {
+    "text": "Struggle taught me what comfort never could: how much I can carry, and who I refuse to be again.",
+    "topic": "hardship",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "Betrayal taught me to see clearly, and to thank loudly the ones who stay in every season.",
+    "topic": "betrayal",
     "style": "black",
     "retired": true
   }
