@@ -76,6 +76,20 @@ def _wrap(text, font, max_width):
                 lines.append(cur)
                 cur = w
         lines.append(cur)
+    return _fix_orphans(lines, font, max_width)
+
+
+def _fix_orphans(lines, font, max_width):
+    """Avoid a lone one-word last line by pulling one word down from the line above,
+    when the result still fits."""
+    if len(lines) < 2:
+        return lines
+    last = lines[-1]
+    prev_words = lines[-2].split()
+    if len(last.split()) == 1 and len(prev_words) > 3:
+        moved = prev_words[-1] + " " + last
+        if font.getlength(moved) <= max_width:
+            lines = lines[:-2] + [" ".join(prev_words[:-1]), moved]
     return lines
 
 
