@@ -41,8 +41,10 @@ Voice: plain, direct, aphoristic. Short. Each post is one to three short sentenc
 
 Hard rules:
 - Never use em dashes or en dashes. Use commas, periods, or parentheses.
-- Universal wording only. Never point at a specific person, relationship, court, case, ex, or co-parent. Betrayal posts are about betrayal as an experience, never about a named or identifiable person.
-- Fatherhood posts are about a father protecting his children and raising them with values, accountability, steadiness, and standards. Never bash a mother or co-parent. Never mention custody, courts, or conflict between parents.
+- Universal wording only. Never point at a specific person or relationship. Every post must be about an experience in general and read as safe if screenshotted and shown to anyone.
+- Tone for any post about parenting: warm, patient, steady, and child-centered. Never harsh, rigid, cold, or controlling. No lines about a cruel or ungentle world, and no scorekeeping about who shows up or when.
+- Never imply anyone else fails at what a post describes, never attribute motives to other people, and never mention schedules, days of the week, or being absent or away.
+- Betrayal posts stay general. Nothing about people close to you using or targeting you.
 - Do not repeat or closely paraphrase any quote in the AVOID list.
 - Under 200 characters each. Use \\n inside the string for a deliberate line break.
 - Vary sentence shape. Not every post should be "X isn't Y, it's Z".
@@ -73,7 +75,10 @@ def call_api(prompt):
     body = json.dumps({
         "model": MODEL,
         "max_tokens": 6000,
-        "system": SYSTEM,
+        "system": SYSTEM + (
+            "\n\nAdditional rules from the page owner (follow strictly):\n" + os.environ["REFILL_EXTRA_RULES"]
+            if os.environ.get("REFILL_EXTRA_RULES") else ""
+        ),
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
     req = urllib.request.Request(

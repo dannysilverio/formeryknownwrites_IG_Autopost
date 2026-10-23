@@ -26,6 +26,7 @@ jobs:
       - name: Write, render, and schedule the next batch
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REFILL_EXTRA_RULES: ${{ secrets.REFILL_EXTRA_RULES }}   # optional, private extra guardrails
         run: python3 tools/refill.py
       - name: Commit new posts
         run: |
