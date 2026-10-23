@@ -79,6 +79,33 @@ def already_posted(posted, date, slot):
     return any(p["date"] == date and p["slot"] == slot for p in posted)
 
 
+RECYCLE_MIN_DAYS = 21  # never repost something that went up more recently than this
+
+
+def source_key(entry):
+    return f"{entry['date']}-{entry['slot']}"
+
+
+def pick_recycle(calendar, posted, today):
+    """Fallback so the page never goes silent: if nothing new is scheduled for
+    this slot, re-post the evergreen quote that has been out of rotation the
+    longest (and at least RECYCLE_MIN_DAYS). Returns a calendar entry or None."""
+    last = {}
+    for p in posted:
+        key = p.get("source") or f"{p['date']}-{p['slot']}"
+        if key not in last or p["date"] > last[key]:
+            last[key] = p["date"]
+    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=RECYCLE_MIN_DAYS)).isoformat()
+    never = "0000-00-00"  # scheduled in the past but never actually posted: first in line
+    eligible = [
+        e for e in calendar
+        if e["date"] < today and last.get(source_key(e), never) <= cutoff
+    ]
+    if not eligible:
+        return None
+    return min(eligible, key=lambda e: (last.get(source_key(e), never), e["date"], e["slot"]))
+
+
 def http_post(url, data):
     body = urllib.parse.urlencode(data).encode()
     req = urllib.request.Request(url, data=body, method="POST")
@@ -113,9 +140,14 @@ def main():
         return
 
     entry = next((e for e in calendar if e["date"] == today and e["slot"] == slot), None)
+    recycled_from = None
     if entry is None:
-        print(f"No post scheduled for {today} slot {slot}. Nothing to do.")
-        return
+        entry = pick_recycle(calendar, posted, today)
+        if entry is None:
+            print(f"No post scheduled for {today} slot {slot} and nothing eligible to recycle. Nothing to do.")
+            return
+        recycled_from = source_key(entry)
+        print(f"No new post scheduled for {today} slot {slot}. Recycling {recycled_from}.")
 
     print(f"Posting {today} slot {slot}: {entry['image_url']}")
 
@@ -152,7 +184,10 @@ def main():
     permalink = info.get("permalink", media_id)
     print(f"Posted: {permalink}")
 
-    posted.append({"date": today, "slot": slot, "media_id": media_id, "permalink": permalink})
+    record = {"date": today, "slot": slot, "media_id": media_id, "permalink": permalink}
+    if recycled_from:
+        record["source"] = recycled_from  # which calendar entry this repost came from
+    posted.append(record)
     save_posted(posted)
 
 

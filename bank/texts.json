@@ -1,0 +1,482 @@
+[
+  {
+    "text": "I'm not raising kids. I'm raising adults.\nEvery rule at home is a rehearsal for a world that won't be gentle.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0001_note_fatherhood.png",
+    "date": "2026-10-24",
+    "slot": 1
+  },
+  {
+    "text": "Hard seasons don't build character.\nThey reveal it, then give you the chance to build more.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0002_black_hardship.png",
+    "date": "2026-10-24",
+    "slot": 2
+  },
+  {
+    "text": "Betrayal rarely comes from strangers.\nIt comes from people who knew exactly where you were soft.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0003_black_betrayal.png",
+    "date": "2026-10-24",
+    "slot": 3
+  },
+  {
+    "text": "A father's job is not to smooth the road.\nIt's to build a child who can walk any road.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0004_note_fatherhood.png",
+    "date": "2026-10-25",
+    "slot": 1
+  },
+  {
+    "text": "Some people leave a hole.\nOthers leave a lesson.\nThe hardest ones leave both.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0005_black_absence.png",
+    "date": "2026-10-25",
+    "slot": 2
+  },
+  {
+    "text": "Life will humble you, or you can do it yourself first.\nThe second way hurts less.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0006_black_life.png",
+    "date": "2026-10-25",
+    "slot": 3
+  },
+  {
+    "text": "They won't remember most of what I said.\nThey'll remember how steady I stayed.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0007_note_fatherhood.png",
+    "date": "2026-10-26",
+    "slot": 1
+  },
+  {
+    "text": "Stop auditioning for seats at tables you wouldn't even want to eat at.",
+    "topic": "self_worth",
+    "style": "black",
+    "file": "bank/p0008_black_self_worth.png",
+    "date": "2026-10-26",
+    "slot": 2
+  },
+  {
+    "text": "A boundary isn't a wall.\nIt's a door you finally learned to close.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0009_black_boundaries.png",
+    "date": "2026-10-26",
+    "slot": 3
+  },
+  {
+    "text": "Every door that closed was protecting a room you weren't ready to walk into.",
+    "topic": "redirection",
+    "style": "note",
+    "file": "bank/p0010_note_redirection.png",
+    "date": "2026-10-27",
+    "slot": 1
+  },
+  {
+    "text": "I didn't survive it by being strong.\nI survived it by getting up one more time than I fell.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0011_black_hardship.png",
+    "date": "2026-10-27",
+    "slot": 2
+  },
+  {
+    "text": "Protecting my children doesn't mean controlling them.\nIt means building a conscience they can carry into rooms I'll never be in.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0012_black_fatherhood.png",
+    "date": "2026-10-27",
+    "slot": 3
+  },
+  {
+    "text": "Don't let someone else's betrayal turn your generosity into suspicion.\nStay open. Just be selective.",
+    "topic": "betrayal",
+    "style": "note",
+    "file": "bank/p0013_note_betrayal.png",
+    "date": "2026-10-28",
+    "slot": 1
+  },
+  {
+    "text": "You don't need to feel ready.\nYou need to feel willing.",
+    "topic": "audacity",
+    "style": "black",
+    "file": "bank/p0014_black_audacity.png",
+    "date": "2026-10-28",
+    "slot": 2
+  },
+  {
+    "text": "Kids don't obey what you say.\nThey become what you do.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0015_black_fatherhood.png",
+    "date": "2026-10-28",
+    "slot": 3
+  },
+  {
+    "text": "You didn't lose them.\nYou outgrew the version of you they were comfortable with.",
+    "topic": "growth",
+    "style": "note",
+    "file": "bank/p0016_note_growth.png",
+    "date": "2026-10-29",
+    "slot": 1
+  },
+  {
+    "text": "Consistency is the loudest thing a father can say.\nBe there on the Tuesday, not just the birthday.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0017_black_fatherhood.png",
+    "date": "2026-10-29",
+    "slot": 2
+  },
+  {
+    "text": "What you went through wasn't wasted.\nIt's waiting to become someone else's way out.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0018_black_hardship.png",
+    "date": "2026-10-29",
+    "slot": 3
+  },
+  {
+    "text": "Most of what you're afraid of is a story you haven't tested yet.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0019_note_life.png",
+    "date": "2026-10-30",
+    "slot": 1
+  },
+  {
+    "text": "You can forgive someone and still not give them a seat at your table.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0020_black_betrayal.png",
+    "date": "2026-10-30",
+    "slot": 2
+  },
+  {
+    "text": "The season you're in is not a punishment.\nIt's preparation.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0021_black_timing.png",
+    "date": "2026-10-30",
+    "slot": 3
+  },
+  {
+    "text": "Teach them to say sorry and mean it, to say no and keep it, and to say thank you without being told.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0022_note_fatherhood.png",
+    "date": "2026-10-31",
+    "slot": 1
+  },
+  {
+    "text": "Healing doesn't mean the memory stops.\nIt means the memory stops running things.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0023_black_healing.png",
+    "date": "2026-10-31",
+    "slot": 2
+  },
+  {
+    "text": "The best inheritance I can leave my children is not what I own.\nIt's what I refused to compromise.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0024_black_fatherhood.png",
+    "date": "2026-10-31",
+    "slot": 3
+  },
+  {
+    "text": "You're allowed to be tired and still refuse to quit.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0025_note_hardship.png",
+    "date": "2026-11-01",
+    "slot": 1
+  },
+  {
+    "text": "I want my kids to be kind without being soft, strong without being hard, and honest even when it costs them.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0026_black_fatherhood.png",
+    "date": "2026-11-01",
+    "slot": 2
+  },
+  {
+    "text": "Betrayal hurts twice.\nOnce for what they did, and once for how long you defended them.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0027_black_betrayal.png",
+    "date": "2026-11-01",
+    "slot": 3
+  },
+  {
+    "text": "Peace isn't the absence of problems.\nIt's the presence of perspective.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0028_note_life.png",
+    "date": "2026-11-02",
+    "slot": 1
+  },
+  {
+    "text": "Discipline is just love with a longer view.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0029_black_fatherhood.png",
+    "date": "2026-11-02",
+    "slot": 2
+  },
+  {
+    "text": "You're not behind.\nYou're on a road nobody else was built to walk.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0030_black_purpose.png",
+    "date": "2026-11-02",
+    "slot": 3
+  },
+  {
+    "text": "Some of us didn't get a head start.\nWe got a reason.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0031_note_hardship.png",
+    "date": "2026-11-03",
+    "slot": 1
+  },
+  {
+    "text": "Any man can give a child a name.\nThe real work is giving them a standard.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0032_black_fatherhood.png",
+    "date": "2026-11-03",
+    "slot": 2
+  },
+  {
+    "text": "It takes years to earn trust and a single decision to spend it.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0033_black_betrayal.png",
+    "date": "2026-11-03",
+    "slot": 3
+  },
+  {
+    "text": "Do the right thing when it's inconvenient and let them watch.\nThat's the whole curriculum.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0034_note_fatherhood.png",
+    "date": "2026-11-04",
+    "slot": 1
+  },
+  {
+    "text": "Some silences are louder than any argument you ever had.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0035_black_absence.png",
+    "date": "2026-11-04",
+    "slot": 2
+  },
+  {
+    "text": "You are one decision away from a completely different year.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0036_black_life.png",
+    "date": "2026-11-04",
+    "slot": 3
+  },
+  {
+    "text": "I don't need my children to be perfect.\nI need them to be accountable.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0037_note_fatherhood.png",
+    "date": "2026-11-05",
+    "slot": 1
+  },
+  {
+    "text": "The comeback is rarely loud.\nMostly it's quiet mornings where you decide again.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0038_black_hardship.png",
+    "date": "2026-11-05",
+    "slot": 2
+  },
+  {
+    "text": "What left your life made space for what was always supposed to arrive.",
+    "topic": "redirection",
+    "style": "black",
+    "file": "bank/p0039_black_redirection.png",
+    "date": "2026-11-05",
+    "slot": 3
+  },
+  {
+    "text": "You don't have to be impressive to be worthy.",
+    "topic": "self_worth",
+    "style": "note",
+    "file": "bank/p0040_note_self_worth.png",
+    "date": "2026-11-06",
+    "slot": 1
+  },
+  {
+    "text": "If your peace needs an explanation, they were never going to understand it.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0041_black_boundaries.png",
+    "date": "2026-11-06",
+    "slot": 2
+  },
+  {
+    "text": "My kids aren't watching my highlight reel.\nThey're watching how I handle the bad days.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0042_black_fatherhood.png",
+    "date": "2026-11-06",
+    "slot": 3
+  },
+  {
+    "text": "The risk you keep rehearsing is the life you keep postponing.",
+    "topic": "audacity",
+    "style": "note",
+    "file": "bank/p0043_note_audacity.png",
+    "date": "2026-11-07",
+    "slot": 1
+  },
+  {
+    "text": "Not everyone who accepts your loyalty understands what it weighs.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0044_black_betrayal.png",
+    "date": "2026-11-07",
+    "slot": 2
+  },
+  {
+    "text": "A calm father is a safe place.\nBe the weather they can trust.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0045_black_fatherhood.png",
+    "date": "2026-11-07",
+    "slot": 3
+  },
+  {
+    "text": "Growth is quiet.\nNobody claps while you're changing your own mind.",
+    "topic": "growth",
+    "style": "note",
+    "file": "bank/p0046_note_growth.png",
+    "date": "2026-11-08",
+    "slot": 1
+  },
+  {
+    "text": "Raise them to need you a little less every year.\nThat's how you know it's working.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0047_black_fatherhood.png",
+    "date": "2026-11-08",
+    "slot": 2
+  },
+  {
+    "text": "Rock bottom is still a foundation if you decide to build on it.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0048_black_hardship.png",
+    "date": "2026-11-08",
+    "slot": 3
+  },
+  {
+    "text": "Time is going to pass either way.\nThe only choice is whether you were there for it.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0049_note_life.png",
+    "date": "2026-11-09",
+    "slot": 1
+  },
+  {
+    "text": "They were never confused about what they were doing.\nStop trying to understand them and start protecting yourself.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0050_black_betrayal.png",
+    "date": "2026-11-09",
+    "slot": 2
+  },
+  {
+    "text": "Delay is not denial.\nSometimes it's life finishing something you can't see yet.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0051_black_timing.png",
+    "date": "2026-11-09",
+    "slot": 3
+  },
+  {
+    "text": "Every hard conversation I have with my kids today is a favor to the adults they'll become.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0052_note_fatherhood.png",
+    "date": "2026-11-10",
+    "slot": 1
+  },
+  {
+    "text": "You can miss it and still be better off without it.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0053_black_healing.png",
+    "date": "2026-11-10",
+    "slot": 2
+  },
+  {
+    "text": "Teach them their word is currency.\nSpend it carefully and never counterfeit it.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0054_black_fatherhood.png",
+    "date": "2026-11-10",
+    "slot": 3
+  },
+  {
+    "text": "Struggle taught me what comfort never could: how much I can carry, and who I refuse to be again.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0055_note_hardship.png",
+    "date": "2026-11-11",
+    "slot": 1
+  },
+  {
+    "text": "Some people only love you while you're useful.\nLet the betrayal teach you to value the ones who stay when you're not.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0056_black_betrayal.png",
+    "date": "2026-11-11",
+    "slot": 2
+  },
+  {
+    "text": "Values aren't taught in speeches.\nThey're taught in the small moments you choose the hard right over the easy wrong.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0057_black_fatherhood.png",
+    "date": "2026-11-11",
+    "slot": 3
+  },
+  {
+    "text": "Stop collecting people who clap.\nKeep the ones who correct you.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0058_note_life.png",
+    "date": "2026-11-12",
+    "slot": 1
+  },
+  {
+    "text": "I'll never be able to protect them from everything.\nSo I'll spend my life preparing them for the rest.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0059_black_fatherhood.png",
+    "date": "2026-11-12",
+    "slot": 2
+  },
+  {
+    "text": "Purpose isn't found.\nIt's built, one honest day at a time.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0060_black_purpose.png",
+    "date": "2026-11-12",
+    "slot": 3
+  }
+]

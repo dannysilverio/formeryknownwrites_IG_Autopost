@@ -47,3 +47,7 @@ jobs:
             git commit -m "Record post for $(TZ=America/New_York date +%Y-%m-%d)"
             git push
           fi
+      # Runs last, after posting and recording are done, so it can never block a post.
+      # Fails (which emails you) at most once a day, and only if new content is running low.
+      - name: Check content runway
+        run: python3 tools/check_runway.py
