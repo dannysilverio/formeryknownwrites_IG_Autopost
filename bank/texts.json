@@ -1,6 +1,6 @@
 [
   {
-    "text": "I'm not raising kids. I'm raising adults.\nEvery rule at home is a rehearsal for a world that won't be gentle.",
+    "text": "I don't want kids who just follow rules.\nI want kids who know why, so they keep them when I'm not there.",
     "topic": "fatherhood",
     "style": "note",
     "file": "bank/p0001_note_fatherhood.png",
@@ -478,5 +478,17 @@
     "file": "bank/p0060_black_purpose.png",
     "date": "2026-11-12",
     "slot": 3
+  },
+  {
+    "text": "I'm not raising kids. I'm raising adults.\nEvery rule at home is a rehearsal for a world that won't be gentle.",
+    "topic": "fatherhood",
+    "style": "note",
+    "retired": true
+  },
+  {
+    "text": "I don't want kids who just follow rules.\nI want kids who understand why the rule exists, so they keep it when no one's watching.",
+    "topic": "fatherhood",
+    "style": "note",
+    "retired": true
   }
 ]
