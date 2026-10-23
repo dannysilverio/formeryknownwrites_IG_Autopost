@@ -1612,5 +1612,725 @@
     "file": "bank/p0186_black_purpose.png",
     "date": "2026-12-12",
     "slot": 3
+  },
+  {
+    "text": "Hard times are temporary.\nWhat they teach you is permanent.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0187_note_hardship.png",
+    "date": "2026-12-13",
+    "slot": 1
+  },
+  {
+    "text": "Treat your days like seeds.\nPlant joy, water kindness, and harvest peace.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0188_black_life.png",
+    "date": "2026-12-13",
+    "slot": 2
+  },
+  {
+    "text": "Your words are seeds.\nPlant what you'd be proud to see grow.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0189_black_life_lessons.png",
+    "date": "2026-12-13",
+    "slot": 3
+  },
+  {
+    "text": "Growth is uncomfortable because you've never been this version of you before.",
+    "topic": "growth",
+    "style": "note",
+    "file": "bank/p0190_note_growth.png",
+    "date": "2026-12-14",
+    "slot": 1
+  },
+  {
+    "text": "The harvest knows its own time.\nKeep your seeds in the soil.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0191_black_timing.png",
+    "date": "2026-12-14",
+    "slot": 2
+  },
+  {
+    "text": "Heal gently.\nYou're rebuilding a home, not racing a clock.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0192_black_healing.png",
+    "date": "2026-12-14",
+    "slot": 3
+  },
+  {
+    "text": "Some of my proudest moments will never be photographed.\nThey just live in my heart.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0193_note_fatherhood.png",
+    "date": "2026-12-15",
+    "slot": 1
+  },
+  {
+    "text": "Closure isn't something anyone can hand you.\nYou build it by choosing peace.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0194_black_betrayal.png",
+    "date": "2026-12-15",
+    "slot": 2
+  },
+  {
+    "text": "I've cried in the car, prayed in the kitchen, and still showed up.\nThat's strength too.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0195_black_hardship.png",
+    "date": "2026-12-15",
+    "slot": 3
+  },
+  {
+    "text": "The most valuable things I own can't be bought: peace, faith, and a clear conscience.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0196_note_life.png",
+    "date": "2026-12-16",
+    "slot": 1
+  },
+  {
+    "text": "Never make permanent decisions in temporary emotions.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0197_black_life_lessons.png",
+    "date": "2026-12-16",
+    "slot": 2
+  },
+  {
+    "text": "Roots grow in the dark.\nBranches grow in the light.\nAll of it counts.",
+    "topic": "growth",
+    "style": "black",
+    "file": "bank/p0198_black_growth.png",
+    "date": "2026-12-16",
+    "slot": 3
+  },
+  {
+    "text": "Hug the ones you love a little longer today.",
+    "topic": "absence",
+    "style": "note",
+    "file": "bank/p0199_note_absence.png",
+    "date": "2026-12-17",
+    "slot": 1
+  },
+  {
+    "text": "Take the leap.\nThe net appears when you're already in the air.",
+    "topic": "audacity",
+    "style": "black",
+    "file": "bank/p0200_black_audacity.png",
+    "date": "2026-12-17",
+    "slot": 2
+  },
+  {
+    "text": "Delay is just God fine-tuning your arrival.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0201_black_timing.png",
+    "date": "2026-12-17",
+    "slot": 3
+  },
+  {
+    "text": "A no now is protection for a yes later.",
+    "topic": "redirection",
+    "style": "note",
+    "file": "bank/p0202_note_redirection.png",
+    "date": "2026-12-18",
+    "slot": 1
+  },
+  {
+    "text": "Healing is choosing peace on days when anger would be easier.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0203_black_healing.png",
+    "date": "2026-12-18",
+    "slot": 2
+  },
+  {
+    "text": "Your time is a treasure.\nSpend it where it's treasured.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0204_black_boundaries.png",
+    "date": "2026-12-18",
+    "slot": 3
+  },
+  {
+    "text": "You are worthy on your quietest days and on your loudest.",
+    "topic": "self_worth",
+    "style": "note",
+    "file": "bank/p0205_note_self_worth.png",
+    "date": "2026-12-19",
+    "slot": 1
+  },
+  {
+    "text": "You were built for more than comfort.\nYou were built for calling.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0206_black_purpose.png",
+    "date": "2026-12-19",
+    "slot": 2
+  },
+  {
+    "text": "I'm learning to be the dad who listens first, loves loudest, and apologizes when I'm wrong.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0207_black_fatherhood.png",
+    "date": "2026-12-19",
+    "slot": 3
+  },
+  {
+    "text": "Betrayal can bend your trust.\nIt can't break your character unless you let it.",
+    "topic": "betrayal",
+    "style": "note",
+    "file": "bank/p0208_note_betrayal.png",
+    "date": "2026-12-20",
+    "slot": 1
+  },
+  {
+    "text": "Some chapters are written in tears so the next ones can be written in joy.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0209_black_hardship.png",
+    "date": "2026-12-20",
+    "slot": 2
+  },
+  {
+    "text": "Say the kind thing. Make the call. Take the walk.\nLife is made of these.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0210_black_life.png",
+    "date": "2026-12-20",
+    "slot": 3
+  },
+  {
+    "text": "Do the right thing, especially when no one is watching.",
+    "topic": "life_lessons",
+    "style": "note",
+    "file": "bank/p0211_note_life_lessons.png",
+    "date": "2026-12-21",
+    "slot": 1
+  },
+  {
+    "text": "Don't mistake your growth for distance.\nYou're simply becoming.",
+    "topic": "growth",
+    "style": "black",
+    "file": "bank/p0212_black_growth.png",
+    "date": "2026-12-21",
+    "slot": 2
+  },
+  {
+    "text": "Some people are chapters.\nSome are lifelong stories.\nBe grateful for both.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0213_black_absence.png",
+    "date": "2026-12-21",
+    "slot": 3
+  },
+  {
+    "text": "Be bold enough to begin and humble enough to keep learning.",
+    "topic": "audacity",
+    "style": "note",
+    "file": "bank/p0214_note_audacity.png",
+    "date": "2026-12-22",
+    "slot": 1
+  },
+  {
+    "text": "Wait well.\nHow you wait shapes who arrives.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0215_black_timing.png",
+    "date": "2026-12-22",
+    "slot": 2
+  },
+  {
+    "text": "You aren't being rejected.\nYou're being rerouted.",
+    "topic": "redirection",
+    "style": "black",
+    "file": "bank/p0216_black_redirection.png",
+    "date": "2026-12-22",
+    "slot": 3
+  },
+  {
+    "text": "Let your tears water the garden you're growing.",
+    "topic": "healing",
+    "style": "note",
+    "file": "bank/p0217_note_healing.png",
+    "date": "2026-12-23",
+    "slot": 1
+  },
+  {
+    "text": "It's okay to love someone and still say no.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0218_black_boundaries.png",
+    "date": "2026-12-23",
+    "slot": 2
+  },
+  {
+    "text": "You don't need anyone's permission to believe in yourself.",
+    "topic": "self_worth",
+    "style": "black",
+    "file": "bank/p0219_black_self_worth.png",
+    "date": "2026-12-23",
+    "slot": 3
+  },
+  {
+    "text": "Purpose is found in service.\nAsk who you can help today.",
+    "topic": "purpose",
+    "style": "note",
+    "file": "bank/p0220_note_purpose.png",
+    "date": "2026-12-24",
+    "slot": 1
+  },
+  {
+    "text": "My job isn't to clear every path.\nIt's to teach you how to walk, and walk beside you.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0221_black_fatherhood.png",
+    "date": "2026-12-24",
+    "slot": 2
+  },
+  {
+    "text": "Let it hurt, let it teach, let it go.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0222_black_betrayal.png",
+    "date": "2026-12-24",
+    "slot": 3
+  },
+  {
+    "text": "Rising isn't dramatic.\nMostly it's a deep breath and one more step.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0223_note_hardship.png",
+    "date": "2026-12-25",
+    "slot": 1
+  },
+  {
+    "text": "Rich is a quiet house, a full heart, and nothing to hide.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0224_black_life.png",
+    "date": "2026-12-25",
+    "slot": 2
+  },
+  {
+    "text": "Humility is knowing who you are without needing to prove it.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0225_black_life_lessons.png",
+    "date": "2026-12-25",
+    "slot": 3
+  },
+  {
+    "text": "The old routine can't hold the new you.\nBuild a bigger one.",
+    "topic": "growth",
+    "style": "note",
+    "file": "bank/p0226_note_growth.png",
+    "date": "2026-12-26",
+    "slot": 1
+  },
+  {
+    "text": "Memory is how love keeps the people it can't hold.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0227_black_absence.png",
+    "date": "2026-12-26",
+    "slot": 2
+  },
+  {
+    "text": "Don't ask what if it fails.\nAsk what if it works.",
+    "topic": "audacity",
+    "style": "black",
+    "file": "bank/p0228_black_audacity.png",
+    "date": "2026-12-26",
+    "slot": 3
+  },
+  {
+    "text": "Everything blooms in its own season.\nYours is coming.",
+    "topic": "timing",
+    "style": "note",
+    "file": "bank/p0229_note_timing.png",
+    "date": "2026-12-27",
+    "slot": 1
+  },
+  {
+    "text": "Your path didn't disappear.\nIt bent.",
+    "topic": "redirection",
+    "style": "black",
+    "file": "bank/p0230_black_redirection.png",
+    "date": "2026-12-27",
+    "slot": 2
+  },
+  {
+    "text": "A quiet day is a victory when you've fought loud ones.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0231_black_healing.png",
+    "date": "2026-12-27",
+    "slot": 3
+  },
+  {
+    "text": "Peace is not a luxury.\nIt's a requirement.",
+    "topic": "boundaries",
+    "style": "note",
+    "file": "bank/p0232_note_boundaries.png",
+    "date": "2026-12-28",
+    "slot": 1
+  },
+  {
+    "text": "Speak to yourself like someone you're raising to be great.",
+    "topic": "self_worth",
+    "style": "black",
+    "file": "bank/p0233_black_self_worth.png",
+    "date": "2026-12-28",
+    "slot": 2
+  },
+  {
+    "text": "Your struggles are not detours.\nThey're the training ground for your purpose.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0234_black_purpose.png",
+    "date": "2026-12-28",
+    "slot": 3
+  },
+  {
+    "text": "Strong roots, open hearts, brave wings.\nThat's the whole parenting plan.",
+    "topic": "fatherhood",
+    "style": "note",
+    "file": "bank/p0235_note_fatherhood.png",
+    "date": "2026-12-29",
+    "slot": 1
+  },
+  {
+    "text": "The measure of a heart isn't that it was never broken.\nIt's that it chose to stay kind.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0236_black_betrayal.png",
+    "date": "2026-12-29",
+    "slot": 2
+  },
+  {
+    "text": "What broke me also built me.\nBoth were necessary.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0237_black_hardship.png",
+    "date": "2026-12-29",
+    "slot": 3
+  },
+  {
+    "text": "Be the reason someone's day got lighter.",
+    "topic": "life",
+    "style": "note",
+    "file": "bank/p0238_note_life.png",
+    "date": "2026-12-30",
+    "slot": 1
+  },
+  {
+    "text": "Slow down to listen.\nSpeed up to forgive.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0239_black_life_lessons.png",
+    "date": "2026-12-30",
+    "slot": 2
+  },
+  {
+    "text": "You've outgrown it when what once felt like home starts to feel like a waiting room.",
+    "topic": "growth",
+    "style": "black",
+    "file": "bank/p0240_black_growth.png",
+    "date": "2026-12-30",
+    "slot": 3
+  },
+  {
+    "text": "Missing someone means the love was real.",
+    "topic": "absence",
+    "style": "note",
+    "file": "bank/p0241_note_absence.png",
+    "date": "2026-12-31",
+    "slot": 1
+  },
+  {
+    "text": "A brave life isn't fearless.\nIt's faithful in spite of fear.",
+    "topic": "audacity",
+    "style": "black",
+    "file": "bank/p0242_black_audacity.png",
+    "date": "2026-12-31",
+    "slot": 2
+  },
+  {
+    "text": "Some doors open slowly so you learn to walk through with grace.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0243_black_timing.png",
+    "date": "2026-12-31",
+    "slot": 3
+  },
+  {
+    "text": "Sometimes the best thing that happens is the thing that doesn't.",
+    "topic": "redirection",
+    "style": "note",
+    "file": "bank/p0244_note_redirection.png",
+    "date": "2027-01-01",
+    "slot": 1
+  },
+  {
+    "text": "You can carry the memory without carrying the weight.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0245_black_healing.png",
+    "date": "2027-01-01",
+    "slot": 2
+  },
+  {
+    "text": "You can be kind without being available for everything.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0246_black_boundaries.png",
+    "date": "2027-01-01",
+    "slot": 3
+  },
+  {
+    "text": "Your worth doesn't change with the weather of other people's opinions.",
+    "topic": "self_worth",
+    "style": "note",
+    "file": "bank/p0247_note_self_worth.png",
+    "date": "2027-01-02",
+    "slot": 1
+  },
+  {
+    "text": "The best legacy isn't what you leave behind.\nIt's who you lifted along the way.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0248_black_purpose.png",
+    "date": "2027-01-02",
+    "slot": 2
+  },
+  {
+    "text": "You don't have to be perfect to be loved.\nYou just have to be you.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0249_black_fatherhood.png",
+    "date": "2027-01-02",
+    "slot": 3
+  },
+  {
+    "text": "Protect your heart without hardening it.\nThat's the whole lesson.",
+    "topic": "betrayal",
+    "style": "note",
+    "file": "bank/p0250_note_betrayal.png",
+    "date": "2027-01-03",
+    "slot": 1
+  },
+  {
+    "text": "You're not stuck.\nYou're in the part of the story where the character grows.",
+    "topic": "hardship",
+    "style": "black",
+    "file": "bank/p0251_black_hardship.png",
+    "date": "2027-01-03",
+    "slot": 2
+  },
+  {
+    "text": "Life's best chapters usually begin with a leap of faith and a deep breath.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0252_black_life.png",
+    "date": "2027-01-03",
+    "slot": 3
+  },
+  {
+    "text": "Character is what you choose when the easy way is available.",
+    "topic": "life_lessons",
+    "style": "note",
+    "file": "bank/p0253_note_life_lessons.png",
+    "date": "2027-01-04",
+    "slot": 1
+  },
+  {
+    "text": "Evolve quietly.\nThe results will announce themselves.",
+    "topic": "growth",
+    "style": "black",
+    "file": "bank/p0254_black_growth.png",
+    "date": "2027-01-04",
+    "slot": 2
+  },
+  {
+    "text": "Call the person you've been thinking about.\nToday is a good day to be remembered.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0255_black_absence.png",
+    "date": "2027-01-04",
+    "slot": 3
+  },
+  {
+    "text": "Step first.\nClarity walks behind you.",
+    "topic": "audacity",
+    "style": "note",
+    "file": "bank/p0256_note_audacity.png",
+    "date": "2027-01-05",
+    "slot": 1
+  },
+  {
+    "text": "Rushing a blessing is like pulling a flower open.\nLet it bloom.",
+    "topic": "timing",
+    "style": "black",
+    "file": "bank/p0257_black_timing.png",
+    "date": "2027-01-05",
+    "slot": 2
+  },
+  {
+    "text": "Trust the turn you didn't plan.\nSome of the best views are off the map.",
+    "topic": "redirection",
+    "style": "black",
+    "file": "bank/p0258_black_redirection.png",
+    "date": "2027-01-05",
+    "slot": 3
+  },
+  {
+    "text": "Forgiveness is a gift you open for yourself.",
+    "topic": "healing",
+    "style": "note",
+    "file": "bank/p0259_note_healing.png",
+    "date": "2027-01-06",
+    "slot": 1
+  },
+  {
+    "text": "Say what you mean, mean what you say, and keep your peace either way.",
+    "topic": "boundaries",
+    "style": "black",
+    "file": "bank/p0260_black_boundaries.png",
+    "date": "2027-01-06",
+    "slot": 2
+  },
+  {
+    "text": "Be proud of how far you've come, and kind to how far you have left.",
+    "topic": "self_worth",
+    "style": "black",
+    "file": "bank/p0261_black_self_worth.png",
+    "date": "2027-01-06",
+    "slot": 3
+  },
+  {
+    "text": "Wake up with gratitude, work with intention, and sleep with a clear conscience.",
+    "topic": "purpose",
+    "style": "note",
+    "file": "bank/p0262_note_purpose.png",
+    "date": "2027-01-07",
+    "slot": 1
+  },
+  {
+    "text": "Every \"I love you\" I say now is a seed I'm planting for the day you need it most.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0263_black_fatherhood.png",
+    "date": "2027-01-07",
+    "slot": 2
+  },
+  {
+    "text": "Soft and wise are not opposites.\nBe both.",
+    "topic": "betrayal",
+    "style": "black",
+    "file": "bank/p0264_black_betrayal.png",
+    "date": "2027-01-07",
+    "slot": 3
+  },
+  {
+    "text": "Tomorrow is a clean page.\nToday only has to be survived with grace.",
+    "topic": "hardship",
+    "style": "note",
+    "file": "bank/p0265_note_hardship.png",
+    "date": "2027-01-08",
+    "slot": 1
+  },
+  {
+    "text": "Gratitude turns what we have into enough.",
+    "topic": "life",
+    "style": "black",
+    "file": "bank/p0266_black_life.png",
+    "date": "2027-01-08",
+    "slot": 2
+  },
+  {
+    "text": "You set the standard by what you accept, what you offer, and what you walk away from.",
+    "topic": "life_lessons",
+    "style": "black",
+    "file": "bank/p0267_black_life_lessons.png",
+    "date": "2027-01-08",
+    "slot": 3
+  },
+  {
+    "text": "Become the kind of person your younger self would be proud to meet.",
+    "topic": "growth",
+    "style": "note",
+    "file": "bank/p0268_note_growth.png",
+    "date": "2027-01-09",
+    "slot": 1
+  },
+  {
+    "text": "Gratitude keeps the past warm.\nSay their names with a smile.",
+    "topic": "absence",
+    "style": "black",
+    "file": "bank/p0269_black_absence.png",
+    "date": "2027-01-09",
+    "slot": 2
+  },
+  {
+    "text": "Your comfort zone is lovely, but nothing grows there.",
+    "topic": "audacity",
+    "style": "black",
+    "file": "bank/p0270_black_audacity.png",
+    "date": "2027-01-09",
+    "slot": 3
+  },
+  {
+    "text": "Trust the pause.\nMusic needs rests to become a song.",
+    "topic": "timing",
+    "style": "note",
+    "file": "bank/p0271_note_timing.png",
+    "date": "2027-01-10",
+    "slot": 1
+  },
+  {
+    "text": "The wrong door closing is the right door's invitation.",
+    "topic": "redirection",
+    "style": "black",
+    "file": "bank/p0272_black_redirection.png",
+    "date": "2027-01-10",
+    "slot": 2
+  },
+  {
+    "text": "Soft starts, slow mornings, and a calm heart.\nThat's what healing looks like.",
+    "topic": "healing",
+    "style": "black",
+    "file": "bank/p0273_black_healing.png",
+    "date": "2027-01-10",
+    "slot": 3
+  },
+  {
+    "text": "A healthy no is a gift to your future self.",
+    "topic": "boundaries",
+    "style": "note",
+    "file": "bank/p0274_note_boundaries.png",
+    "date": "2027-01-11",
+    "slot": 1
+  },
+  {
+    "text": "You're becoming, on your own beautiful timeline.",
+    "topic": "self_worth",
+    "style": "black",
+    "file": "bank/p0275_black_self_worth.png",
+    "date": "2027-01-11",
+    "slot": 2
+  },
+  {
+    "text": "Let your life be a sermon that doesn't need a microphone.",
+    "topic": "purpose",
+    "style": "black",
+    "file": "bank/p0276_black_purpose.png",
+    "date": "2027-01-11",
+    "slot": 3
   }
 ]
