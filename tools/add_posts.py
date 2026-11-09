@@ -55,6 +55,17 @@ TOPIC_CTAS = {
         "Send this to a dad who needs to hear it today.",
         "Save this for the next hard parenting day.",
     ],
+    "small_circle": [
+        "Tag the ones who were there before the proof.",
+        "Send this to someone who kept the lights on for you.",
+    ],
+    "come_up": [
+        "Comment \"day one\" if you remember where you started.",
+        "Send this to someone still building from scraps.",
+    ],
+    "greatness": [
+        "Save this for the night you want to quit.",
+    ],
 }
 
 TOPIC_TAGS = {
@@ -72,6 +83,12 @@ TOPIC_TAGS = {
     "boundaries": ["#boundariesquotes", "#protectyourpeace", "#noexplanationneeded", "#selfrespect", "#peaceoverpleasing"],
     "self_worth": ["#selfworthquotes", "#knowyourworth", "#chooseyourself", "#boundariesarehealthy", "#selflove"],
     "purpose": ["#findyourpurpose", "#becomingher", "#becominghim", "#nextchapter", "#purposedriven"],
+    # Deeper lanes added Nov 2026 (these now lead the weekly mix).
+    "small_circle": ["#smallcircle", "#realones", "#loyaltyquotes", "#gratitudequotes", "#whowasthere"],
+    "narcissist_healing": ["#narcissistrecovery", "#healingjourney", "#gaslighting", "#protectyourpeace", "#toxicrelationships"],
+    "greatness": ["#betonyourself", "#visionquotes", "#builtdifferent", "#dreamchaser", "#greatness"],
+    "loneliness": ["#lonelyroad", "#solitude", "#3amthoughts", "#quietseason", "#successjourney"],
+    "come_up": ["#thecomeup", "#humblebeginnings", "#fromnothingtosomething", "#selfmade", "#comebackstory"],
 }
 
 

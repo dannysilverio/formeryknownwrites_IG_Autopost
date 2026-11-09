@@ -2332,5 +2332,485 @@
     "file": "bank/p0276_black_purpose.png",
     "date": "2027-01-11",
     "slot": 3
+  },
+  {
+    "text": "Everybody wants a seat at the table.\nFew were around when I was building it from scraps.\nThe guest list was written back then.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0277_note_small_circle.png",
+    "date": "2026-11-09",
+    "slot": 1
+  },
+  {
+    "text": "A father's love is the one thing in my life you never have to earn, owe, or explain.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0278_black_fatherhood.png",
+    "date": "2026-11-09",
+    "slot": 2
+  },
+  {
+    "text": "The hardest part wasn't leaving.\nIt was realizing the version of them I loved was only the trailer.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0279_black_narcissist_healing.png",
+    "date": "2026-11-09",
+    "slot": 3
+  },
+  {
+    "text": "Nobody tells you the vision comes with a solo seat.\nSome views only fit one.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0280_note_greatness.png",
+    "date": "2026-11-10",
+    "slot": 1
+  },
+  {
+    "text": "Success is loud.\nThe road to it is so quiet you can hear your doubts breathing.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0281_black_loneliness.png",
+    "date": "2026-11-10",
+    "slot": 2
+  },
+  {
+    "text": "Overdraft fees taught me more than any class.\nNegative balance, positive lesson.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0282_black_come_up.png",
+    "date": "2026-11-10",
+    "slot": 3
+  },
+  {
+    "text": "You showed up for the finish line.\nNever once called during the hard lines.\nRead between them.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0283_note_small_circle.png",
+    "date": "2026-11-11",
+    "slot": 1
+  },
+  {
+    "text": "I wasn't handed a blueprint.\nSo I became one.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0284_black_fatherhood.png",
+    "date": "2026-11-11",
+    "slot": 2
+  },
+  {
+    "text": "Their apologies came with fine print.\nTheir love came with terms and conditions.\nI finally read the contract.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0285_black_narcissist_healing.png",
+    "date": "2026-11-11",
+    "slot": 3
+  },
+  {
+    "text": "They want the cheat code.\nI only had the code: wake up, show up, repeat.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0286_note_greatness.png",
+    "date": "2026-11-12",
+    "slot": 1
+  },
+  {
+    "text": "I didn't lose friends.\nI lost signal.\nDifferent frequency, same love.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0287_black_loneliness.png",
+    "date": "2026-11-12",
+    "slot": 2
+  },
+  {
+    "text": "I counted every dollar twice.\nNot because I was cheap.\nBecause I couldn't afford to be wrong once.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0288_black_come_up.png",
+    "date": "2026-11-12",
+    "slot": 3
+  },
+  {
+    "text": "Now they see the view.\nThey never saw the climb.\nAnd they definitely never saw me slip.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0289_note_small_circle.png",
+    "date": "2026-11-13",
+    "slot": 1
+  },
+  {
+    "text": "When you fall asleep in the back seat, I take the long way home.\nSome roads are worth slowing down for.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0290_black_fatherhood.png",
+    "date": "2026-11-13",
+    "slot": 2
+  },
+  {
+    "text": "They rewrite history so often they deserve a ghostwriter credit.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0291_black_narcissist_healing.png",
+    "date": "2026-11-13",
+    "slot": 3
+  },
+  {
+    "text": "\"Built different\" usually means built alone.\nBlueprint, foundation, and contractor, all one person.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0292_note_greatness.png",
+    "date": "2026-11-14",
+    "slot": 1
+  },
+  {
+    "text": "Lonely isn't being alone.\nIt's being the only one in the room who can see where you're going.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0293_black_loneliness.png",
+    "date": "2026-11-14",
+    "slot": 2
+  },
+  {
+    "text": "Ramen nights, borrowed rides, and a dream I never let anybody repo.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0294_black_come_up.png",
+    "date": "2026-11-14",
+    "slot": 3
+  },
+  {
+    "text": "You can't RSVP to the struggle after the celebration gets announced.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0295_note_small_circle.png",
+    "date": "2026-11-15",
+    "slot": 1
+  },
+  {
+    "text": "You'll outgrow my arms.\nNever my reach.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0296_black_fatherhood.png",
+    "date": "2026-11-15",
+    "slot": 2
+  },
+  {
+    "text": "Stop explaining yourself to someone committed to misunderstanding you.\nSome ears are just mirrors.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0297_black_narcissist_healing.png",
+    "date": "2026-11-15",
+    "slot": 3
+  },
+  {
+    "text": "My corner was small.\nMy mother, my brother, a few cousins, a couple of real ones.\nSmall corner, big fight.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0298_note_greatness.png",
+    "date": "2026-11-16",
+    "slot": 1
+  },
+  {
+    "text": "The higher the climb, the thinner the air, the shorter the guest list.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0299_black_loneliness.png",
+    "date": "2026-11-16",
+    "slot": 2
+  },
+  {
+    "text": "They watched me fall.\nThey didn't see me taking notes on the way down.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0300_black_come_up.png",
+    "date": "2026-11-16",
+    "slot": 3
+  },
+  {
+    "text": "I keep receipts for gratitude, not revenge.\nI know exactly who paid attention when I couldn't pay anything.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0301_note_small_circle.png",
+    "date": "2026-11-17",
+    "slot": 1
+  },
+  {
+    "text": "I'm building a home, not a house.\nOne is made of brick.\nThe other is made of being there.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0302_black_fatherhood.png",
+    "date": "2026-11-17",
+    "slot": 2
+  },
+  {
+    "text": "Healing looked like this:\nI stopped auditioning for a role in someone else's story.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0303_black_narcissist_healing.png",
+    "date": "2026-11-17",
+    "slot": 3
+  },
+  {
+    "text": "I didn't have a crowd. I had a circle.\nTurns out you only need a few hands to pull you up.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0304_note_greatness.png",
+    "date": "2026-11-18",
+    "slot": 1
+  },
+  {
+    "text": "They had my back.\nBut some nights the weight was mine to carry.\nLove can walk beside you, it can't climb for you.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0305_black_loneliness.png",
+    "date": "2026-11-18",
+    "slot": 2
+  },
+  {
+    "text": "Nothing to something isn't a jump.\nIt's a thousand quiet reps nobody posted.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0306_black_come_up.png",
+    "date": "2026-11-18",
+    "slot": 3
+  },
+  {
+    "text": "I don't need the whole city clapping.\nI remember the few who kept the lights on when the stage was dark.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0307_note_small_circle.png",
+    "date": "2026-11-19",
+    "slot": 1
+  },
+  {
+    "text": "You don't have to earn a seat at my table.\nYou were born with your name carved in it.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0308_black_fatherhood.png",
+    "date": "2026-11-19",
+    "slot": 2
+  },
+  {
+    "text": "You won't get closure from the same place that kept you confused.\nGive it to yourself.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0309_black_narcissist_healing.png",
+    "date": "2026-11-19",
+    "slot": 3
+  },
+  {
+    "text": "Vision is heavy.\nThat's why most people put it down.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0310_note_greatness.png",
+    "date": "2026-11-20",
+    "slot": 1
+  },
+  {
+    "text": "Growth gets quiet.\nThe higher you go, the fewer people speak your language.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0311_black_loneliness.png",
+    "date": "2026-11-20",
+    "slot": 2
+  },
+  {
+    "text": "Broke in pocket, rich in plans.\nI spent the plans first.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0312_black_come_up.png",
+    "date": "2026-11-20",
+    "slot": 3
+  },
+  {
+    "text": "The ones who believed before the proof are the only reviews I read.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0313_note_small_circle.png",
+    "date": "2026-11-21",
+    "slot": 1
+  },
+  {
+    "text": "I'm not raising you to be like me.\nI'm raising you to be free, to be kind, and to be you.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0314_black_fatherhood.png",
+    "date": "2026-11-21",
+    "slot": 2
+  },
+  {
+    "text": "Peace felt boring at first.\nThat's how I knew I'd been living in a storm.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0315_black_narcissist_healing.png",
+    "date": "2026-11-21",
+    "slot": 3
+  },
+  {
+    "text": "I stopped waiting for permission.\nGreatness doesn't come with a hall pass.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0316_note_greatness.png",
+    "date": "2026-11-22",
+    "slot": 1
+  },
+  {
+    "text": "Some seasons you sit with yourself so long you finally meet yourself.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0317_black_loneliness.png",
+    "date": "2026-11-22",
+    "slot": 2
+  },
+  {
+    "text": "Before the logo, the office, and the title, it was me, a phone, and a promise I made to myself.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0318_black_come_up.png",
+    "date": "2026-11-22",
+    "slot": 3
+  },
+  {
+    "text": "The ones who read the rough draft never needed an invite to the release party.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0319_note_small_circle.png",
+    "date": "2026-11-23",
+    "slot": 1
+  },
+  {
+    "text": "I can't promise you calm water.\nI can promise you a lighthouse that never turns off.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0320_black_fatherhood.png",
+    "date": "2026-11-23",
+    "slot": 2
+  },
+  {
+    "text": "I used to call it walking on eggshells.\nNow I call it what it was: a floor that was never built to hold me.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0321_black_narcissist_healing.png",
+    "date": "2026-11-23",
+    "slot": 3
+  },
+  {
+    "text": "The dream didn't come with directions.\nI drew the map, walked the map, and became the map.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0322_note_greatness.png",
+    "date": "2026-11-24",
+    "slot": 1
+  },
+  {
+    "text": "I learned to eat alone, celebrate alone, and still save a seat for whoever's coming.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0323_black_loneliness.png",
+    "date": "2026-11-24",
+    "slot": 2
+  },
+  {
+    "text": "Some of my best ideas were written on the back of bills I couldn't pay yet.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0324_black_come_up.png",
+    "date": "2026-11-24",
+    "slot": 3
+  },
+  {
+    "text": "Nobody hands you a crown.\nYou forge it, wear it, and keep it polished on the days it feels heavy.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0325_note_greatness.png",
+    "date": "2026-11-25",
+    "slot": 1
+  },
+  {
+    "text": "Every \"watch me\" is a contract I sign with my full attention.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0326_black_fatherhood.png",
+    "date": "2026-11-25",
+    "slot": 2
+  },
+  {
+    "text": "The moment you stop reacting, the whole show loses its lighting, its script, and its audience.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0327_black_narcissist_healing.png",
+    "date": "2026-11-25",
+    "slot": 3
+  },
+  {
+    "text": "Greatness is just consistency nobody clapped for yet.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0328_note_greatness.png",
+    "date": "2026-11-26",
+    "slot": 1
+  },
+  {
+    "text": "The road got lonely, but the view kept me company.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0329_black_loneliness.png",
+    "date": "2026-11-26",
+    "slot": 2
+  },
+  {
+    "text": "I didn't have a safety net, so I learned to land.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0330_black_come_up.png",
+    "date": "2026-11-26",
+    "slot": 3
+  },
+  {
+    "text": "I bet on myself when the odds, the oddsmakers, and the odd ones out all said fold.",
+    "topic": "greatness",
+    "style": "note",
+    "file": "bank/p0331_note_greatness.png",
+    "date": "2026-11-27",
+    "slot": 1
+  },
+  {
+    "text": "You were the answer to prayers I didn't know how to pray yet.",
+    "topic": "fatherhood",
+    "style": "black",
+    "file": "bank/p0332_black_fatherhood.png",
+    "date": "2026-11-27",
+    "slot": 2
+  },
+  {
+    "text": "Don't measure your worth with a ruler someone else keeps moving.",
+    "topic": "narcissist_healing",
+    "style": "black",
+    "file": "bank/p0333_black_narcissist_healing.png",
+    "date": "2026-11-27",
+    "slot": 3
+  },
+  {
+    "text": "Late is still late.\nBut the early ones? They get a lifetime pass.",
+    "topic": "small_circle",
+    "style": "note",
+    "file": "bank/p0334_note_small_circle.png",
+    "date": "2026-11-28",
+    "slot": 1
+  },
+  {
+    "text": "Being misunderstood is the tax on seeing early.",
+    "topic": "loneliness",
+    "style": "black",
+    "file": "bank/p0335_black_loneliness.png",
+    "date": "2026-11-28",
+    "slot": 2
+  },
+  {
+    "text": "The come up taught me three languages: patience, pressure, and prayer.",
+    "topic": "come_up",
+    "style": "black",
+    "file": "bank/p0336_black_come_up.png",
+    "date": "2026-11-28",
+    "slot": 3
   }
 ]
