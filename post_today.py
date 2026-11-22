@@ -34,6 +34,7 @@ import time
 import datetime
 import zoneinfo
 import urllib.request
+import urllib.error
 import urllib.parse
 
 GRAPH_VERSION = "v21.0"
@@ -106,17 +107,34 @@ def pick_recycle(calendar, posted, today):
     return min(eligible, key=lambda e: (last.get(source_key(e), never), e["date"], e["slot"]))
 
 
+def _api_error(e):
+    """Print Instagram's own explanation for a failed call (the token is never
+    part of the response body, and the request URL is deliberately not printed)."""
+    try:
+        detail = e.read().decode(errors="replace")
+    except Exception:
+        detail = "(no response body)"
+    print(f"Instagram API error {e.code}: {detail}", file=sys.stderr)
+    sys.exit(1)
+
+
 def http_post(url, data):
     body = urllib.parse.urlencode(data).encode()
     req = urllib.request.Request(url, data=body, method="POST")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        _api_error(e)
 
 
 def http_get(url, params):
     qs = urllib.parse.urlencode(params)
-    with urllib.request.urlopen(f"{url}?{qs}", timeout=30) as resp:
-        return json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(f"{url}?{qs}", timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        _api_error(e)
 
 
 def main():
