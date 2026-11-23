@@ -137,36 +137,32 @@ def http_get(url, params):
         _api_error(e)
 
 
-def main():
-    ig_user_id = os.environ["IG_USER_ID"]
-    access_token = os.environ["IG_ACCESS_TOKEN"]
+EXTRAS_FILE = "extras.json"
+EXTRA_GRACE_MINUTES = 120  # an extra post can go out up to this long after its set time
 
-    with open("calendar.json") as f:
-        calendar = json.load(f)
 
-    now = now_et()
+def extra_due_now(now, posted):
+    """One-off posts on top of the 3 daily slots, listed in extras.json as
+    {id, date, at "HH:MM" Eastern, image_url or image_urls, caption}.
+    Returns the first one that is due and not yet posted, else None."""
+    if not os.path.exists(EXTRAS_FILE):
+        return None
+    with open(EXTRAS_FILE) as f:
+        extras = json.load(f)
     today = now.strftime("%Y-%m-%d")
-    slot = slot_due_now(now)
+    for e in extras:
+        if e["date"] != today or already_posted(posted, today, f"extra-{e['id']}"):
+            continue
+        h, m = map(int, e["at"].split(":"))
+        late = (now - now.replace(hour=h, minute=m, second=0, microsecond=0)).total_seconds() / 60
+        if 0 <= late <= EXTRA_GRACE_MINUTES:
+            return e
+    return None
 
-    if slot is None:
-        print(f"Not within a posting window right now ({now.strftime('%H:%M %Z')}). Nothing to do.")
-        return
 
-    posted = load_posted()
-    if already_posted(posted, today, slot):
-        print(f"Already posted for {today} slot {slot} -- skipping (double-post guard).")
-        return
-
-    entry = next((e for e in calendar if e["date"] == today and e["slot"] == slot), None)
-    recycled_from = None
-    if entry is None:
-        entry = pick_recycle(calendar, posted, today)
-        if entry is None:
-            print(f"No post scheduled for {today} slot {slot} and nothing eligible to recycle. Nothing to do.")
-            return
-        recycled_from = source_key(entry)
-        print(f"No new post scheduled for {today} slot {slot}. Recycling {recycled_from}.")
-
+def publish(entry, ig_user_id, access_token, label):
+    """Publish one calendar entry (single image, or a carousel when it has
+    image_urls). Returns (media_id, permalink)."""
     def wait_ready(cid):
         deadline = time.time() + 60
         while time.time() < deadline:
@@ -181,7 +177,7 @@ def main():
     image_urls = entry.get("image_urls")
     if image_urls:
         # Carousel: one child container per slide, then a parent that holds them in order.
-        print(f"Posting {today} slot {slot}: carousel of {len(image_urls)} slides, first {image_urls[0]}")
+        print(f"Posting {label}: carousel of {len(image_urls)} slides, first {image_urls[0]}")
         children = []
         for url in image_urls:
             child = http_post(f"{BASE}/{ig_user_id}/media", {
@@ -201,7 +197,7 @@ def main():
             "access_token": access_token,
         })
     else:
-        print(f"Posting {today} slot {slot}: {entry['image_url']}")
+        print(f"Posting {label}: {entry['image_url']}")
         container = http_post(f"{BASE}/{ig_user_id}/media", {
             "image_url": entry["image_url"],
             "caption": entry["caption"],
@@ -225,6 +221,50 @@ def main():
     info = http_get(f"{BASE}/{media_id}", {"fields": "permalink", "access_token": access_token})
     permalink = info.get("permalink", media_id)
     print(f"Posted: {permalink}")
+    return media_id, permalink
+
+
+def main():
+    ig_user_id = os.environ["IG_USER_ID"]
+    access_token = os.environ["IG_ACCESS_TOKEN"]
+
+    with open("calendar.json") as f:
+        calendar = json.load(f)
+
+    now = now_et()
+    today = now.strftime("%Y-%m-%d")
+
+    posted = load_posted()
+    extra = extra_due_now(now, posted)
+    if extra is not None:
+        key = f"extra-{extra['id']}"
+        media_id, permalink = publish(extra, ig_user_id, access_token, f"{today} {key}")
+        posted.append({"date": today, "slot": key, "media_id": media_id, "permalink": permalink})
+        save_posted(posted)
+        return  # a regular slot that is also due gets picked up by the next 15-minute check
+
+    slot = slot_due_now(now)
+
+    if slot is None:
+        print(f"Not within a posting window right now ({now.strftime('%H:%M %Z')}). Nothing to do.")
+        return
+
+    posted = load_posted()
+    if already_posted(posted, today, slot):
+        print(f"Already posted for {today} slot {slot} -- skipping (double-post guard).")
+        return
+
+    entry = next((e for e in calendar if e["date"] == today and e["slot"] == slot), None)
+    recycled_from = None
+    if entry is None:
+        entry = pick_recycle(calendar, posted, today)
+        if entry is None:
+            print(f"No post scheduled for {today} slot {slot} and nothing eligible to recycle. Nothing to do.")
+            return
+        recycled_from = source_key(entry)
+        print(f"No new post scheduled for {today} slot {slot}. Recycling {recycled_from}.")
+
+    media_id, permalink = publish(entry, ig_user_id, access_token, f"{today} slot {slot}")
 
     record = {"date": today, "slot": slot, "media_id": media_id, "permalink": permalink}
     if recycled_from:
