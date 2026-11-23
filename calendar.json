@@ -1094,8 +1094,16 @@
   {
     "date": "2026-11-23",
     "slot": 3,
-    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/p0321_black_narcissist_healing.png",
-    "caption": "I used to call it walking on eggshells.\nNow I call it what it was: a floor that was never built to hold me.\n\nShare this to your story if you felt this one.\n\n#narcissistrecovery #healingjourney #gaslighting #protectyourpeace #toxicrelationships"
+    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_01.png",
+    "image_urls": [
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_01.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_02.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_03.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_04.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_05.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c001_take_the_l_06.png"
+    ],
+    "caption": "A black eye heals in a week. A sentence doesn't. Neither does a funeral.\n\nShare this with a young man you love.\n\n#takethel #realmen #accountability #growthmindset #lifelessons"
   },
   {
     "date": "2026-11-24",
@@ -1112,8 +1120,16 @@
   {
     "date": "2026-11-24",
     "slot": 3,
-    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/p0324_black_come_up.png",
-    "caption": "Some of my best ideas were written on the back of bills I couldn't pay yet.\n\nTag someone who needs to see this today.\n\n#thecomeup #humblebeginnings #fromnothingtosomething #selfmade #comebackstory"
+    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_01.png",
+    "image_urls": [
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_01.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_02.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_03.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_04.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_05.png",
+      "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/carousels/c002_on_the_chin_06.png"
+    ],
+    "caption": "An L is tuition. You only wasted the money if you skipped the lesson.\n\nWhich slide stung? Tell me below.\n\n#accountability #ownit #hardtruths #growthmindset #lifelessons"
   },
   {
     "date": "2026-11-25",
@@ -1726,5 +1742,17 @@
     "slot": 3,
     "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/p0426_black_narcissist_healing.png",
     "caption": "Distance isn't cruelty.\nIt's quiet, and quiet is where I found my voice again.\n\nShare this to your story if you felt this one.\n\n#narcissistrecovery #healingjourney #gaslighting #protectyourpeace #toxicrelationships"
+  },
+  {
+    "date": "2026-12-29",
+    "slot": 1,
+    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/p0321_black_narcissist_healing.png",
+    "caption": "I used to call it walking on eggshells.\nNow I call it what it was: a floor that was never built to hold me.\n\nShare this to your story if you felt this one.\n\n#narcissistrecovery #healingjourney #gaslighting #protectyourpeace #toxicrelationships"
+  },
+  {
+    "date": "2026-12-29",
+    "slot": 2,
+    "image_url": "https://raw.githubusercontent.com/dannysilverio/formeryknownwrites_IG_Autopost/main/bank/p0324_black_come_up.png",
+    "caption": "Some of my best ideas were written on the back of bills I couldn't pay yet.\n\nTag someone who needs to see this today.\n\n#thecomeup #humblebeginnings #fromnothingtosomething #selfmade #comebackstory"
   }
 ]

@@ -167,27 +167,51 @@ def main():
         recycled_from = source_key(entry)
         print(f"No new post scheduled for {today} slot {slot}. Recycling {recycled_from}.")
 
-    print(f"Posting {today} slot {slot}: {entry['image_url']}")
+    def wait_ready(cid):
+        deadline = time.time() + 60
+        while time.time() < deadline:
+            status = http_get(f"{BASE}/{cid}", {"fields": "status_code", "access_token": access_token})
+            if status.get("status_code") == "FINISHED":
+                return
+            if status.get("status_code") == "ERROR":
+                print(f"ERROR processing container: {status}", file=sys.stderr)
+                sys.exit(1)
+            time.sleep(2)
 
-    container = http_post(f"{BASE}/{ig_user_id}/media", {
-        "image_url": entry["image_url"],
-        "caption": entry["caption"],
-        "access_token": access_token,
-    })
+    image_urls = entry.get("image_urls")
+    if image_urls:
+        # Carousel: one child container per slide, then a parent that holds them in order.
+        print(f"Posting {today} slot {slot}: carousel of {len(image_urls)} slides, first {image_urls[0]}")
+        children = []
+        for url in image_urls:
+            child = http_post(f"{BASE}/{ig_user_id}/media", {
+                "image_url": url,
+                "is_carousel_item": "true",
+                "access_token": access_token,
+            })
+            if "id" not in child:
+                print(f"ERROR creating carousel slide: {child}", file=sys.stderr)
+                sys.exit(1)
+            wait_ready(child["id"])
+            children.append(child["id"])
+        container = http_post(f"{BASE}/{ig_user_id}/media", {
+            "media_type": "CAROUSEL",
+            "children": ",".join(children),
+            "caption": entry["caption"],
+            "access_token": access_token,
+        })
+    else:
+        print(f"Posting {today} slot {slot}: {entry['image_url']}")
+        container = http_post(f"{BASE}/{ig_user_id}/media", {
+            "image_url": entry["image_url"],
+            "caption": entry["caption"],
+            "access_token": access_token,
+        })
     if "id" not in container:
         print(f"ERROR creating container: {container}", file=sys.stderr)
         sys.exit(1)
     container_id = container["id"]
-
-    deadline = time.time() + 60
-    while time.time() < deadline:
-        status = http_get(f"{BASE}/{container_id}", {"fields": "status_code", "access_token": access_token})
-        if status.get("status_code") == "FINISHED":
-            break
-        if status.get("status_code") == "ERROR":
-            print(f"ERROR processing container: {status}", file=sys.stderr)
-            sys.exit(1)
-        time.sleep(2)
+    wait_ready(container_id)
 
     publish = http_post(f"{BASE}/{ig_user_id}/media_publish", {
         "creation_id": container_id,
